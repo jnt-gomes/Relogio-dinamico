@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+}
+header {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    width: 70%;
+    margin: 20px auto 0;
+    text-align: center;
+    padding: 5px;
+    border: 4px ridge #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px #000;
+}
+header h1 {
+    background: inherit;
+    opacity: 0.7;
+    color: #fff;
+}
+.tela {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 7px #000;
+}
+.tela #msg {
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 5px;
+}
+.tela #foto {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+footer {
+    position: static;
+    bottom: 0;
+    background-color: #333;
+    border-top: 3px ridge #fff;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    text-align: center;
+    line-height: 100px;
+}
+img {
+    width: 50%;
+    height: 50%;
+}
